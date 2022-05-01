@@ -32,12 +32,12 @@ ul{list-style: none;}
 .logo:hover{color: chartreuse;}
 
 
-.item-index1 {
+.item-index {
     width: 49px;
     height: 16px;
 }
 
-.link-index1{
+.link-index{
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
@@ -60,6 +60,12 @@ line-height: 16px;
 letter-spacing: 0.02em;
 color:var(--accent);
 }
+.link-studio:hover,focus{
+    color:var(--main-text-color)
+}
+.link-studio:current{
+    color:var(--accent)
+}
 
 .link-index {
     font-weight: 500;
@@ -79,7 +85,9 @@ color:var(--accent);
     letter-spacing: 0.02em;
     color: #2196F3;
 }
-
+.link-contacts-mail:hover{
+    color:blueviolet;
+}
 .item-contacts-tel {
     width: 122px;
     height: 16px;
