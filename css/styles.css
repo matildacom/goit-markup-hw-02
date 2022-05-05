@@ -7,6 +7,7 @@
 }
 .page{
     background-color: #FFFFFF;
+    font-family: Roboto;
 }
 /*main text color #212121*/
 /*secondary text color #757575*/
@@ -14,8 +15,7 @@
 /*accent #2196F3*/
 /*header styles*/
 .header {
-    background-color: #FFFFFF;
-
+    background-color: #FFFFFF
 }
 ul{list-style: none;}
 
@@ -28,7 +28,6 @@ ul{list-style: none;}
     color:var(--accent);
     text-decoration: none;
 }
-.logo:hover{color: chartreuse;}
 .colortext-header{
     color:var(--main-text-color);
 }
@@ -52,9 +51,10 @@ letter-spacing: 0.02em;
 color:var(--main-text-color);
 text-decoration: none;
 }
-.link-studio:hover,focus{
-    color:var(--accent)
-}
+.link-studio:hover{
+color:var(--accent)}
+.link-studio:focus{
+    color: var(--accent);}
 .link-studio:current{
     color:var(--accent)
 }
@@ -95,15 +95,14 @@ text-decoration: none;
 .hero-title {
     font-weight: 900;
     font-size: 44px;
-    line: height 1.4;
-
+    line-height:1.4;
     text-align:center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
     color:var(--text-color);
 }
-
 .hero-btn {
+    font-family: inherit;
     background:var(--accent);
     color: var(--text-color);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
@@ -157,13 +156,6 @@ text-decoration: none;
     color: #FFFFFF;
     text-decoration: none;
 }
-address-item {
-    color: var(--text-color);
-    font-style: normal;
-    font-size: 14px;
-    line-height: 1.7;
-    text-decoration: none;
-}
 .mail{font-family: 'Roboto';
 font-style: normal;
 font-weight: 400;
@@ -193,7 +185,7 @@ color: rgba(255, 255, 255, 0.6);}
     background: #2196F3;
     color: #FFFFFF;
 }
-.portfolio-title{
+.subtitle{
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
