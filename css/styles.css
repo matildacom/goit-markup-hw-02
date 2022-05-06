@@ -3,6 +3,8 @@
     --secondary-text-color: #757575;
     --text-color: #FFFFFF;
     --accent: #2196F3;
+    --main-background-color:#F5F4FA;
+    --secondary-background-color:#FFFFFF;
     
 }
 .page{
@@ -51,10 +53,9 @@ letter-spacing: 0.02em;
 color:var(--main-text-color);
 text-decoration: none;
 }
-.link-studio:hover{
-color:var(--accent)}
+.link-studio:hover,
 .link-studio:focus{
-    color: var(--accent);}
+color:var(--accent)}
 .link-studio:current{
     color:var(--accent)
 }
@@ -66,6 +67,9 @@ color:var(--accent)}
     color:var(--main-text-color);
     text-decoration: none;
 }
+link-index:hover{
+    color: var(--accent);
+}
 .link-contacts-mail {
     font-weight: 500;
     font-size: 14px;
@@ -74,7 +78,8 @@ color:var(--accent)}
     color:var(--main-text-color);
     text-decoration: none;
 }
-.link-contacts-mail:hover{
+.link-contacts-mail:hover,
+.link-contacts-mail:focus{
     color:var(--accent);
 }
 
@@ -141,7 +146,12 @@ color:var(--accent)}
 }
 
 /*team*/
-
+.team{
+    background-color: var(--main-background-color);
+}
+.team-item{
+    background-color: var(--secondary-background-color);
+}
 /*footer*/
 .footer {
     background-color: #2F303A;
@@ -181,8 +191,9 @@ color: rgba(255, 255, 255, 0.6);}
     background: #F5F4FA;
     color: #212121;
 }
-.portfolio-btn:hover,:active{
-    background: #2196F3;
+.portfolio-btn:hover,
+.portfolio-btn:focus
+{background: #2196F3;
     color: #FFFFFF;
 }
 .subtitle{
