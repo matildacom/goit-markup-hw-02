@@ -54,11 +54,9 @@ color:var(--main-text-color);
 text-decoration: none;
 }
 .link-studio:hover,
-.link-studio:focus{
+.link-studio:focus {
 color:var(--accent)}
-.link-studio:current{
-    color:var(--accent)
-}
+
 .link-index {
     font-weight: 500;
     font-size: 14px;
@@ -67,7 +65,7 @@ color:var(--accent)}
     color:var(--main-text-color);
     text-decoration: none;
 }
-link-index:hover{
+.link-index:hover{
     color: var(--accent);
 }
 .link-contacts-mail {
